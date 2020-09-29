@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-origin: border-box;
+}
+
+.clear {
+    clear: both;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+h1 {
+    font-size: 2.8rem;
+}
+
+h2 {
+    font-size: 3.6rem;
+    padding: 5rem 0rem;
+}
+
+a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 2.4rem;
+    text-shadow: 2px 2px 2px rgb(0, 0, 0);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+h3 {
+    font-size: 2.8rem;
+
+}
+
+button {
+    font-size: 1.8rem;
+}
+
+nav {
+    background-image: url("/AdobeStock_207090644_Preview.jpeg");
+    color: white;
+    padding: 3rem;
+
+
+}
+
+nav h1 {
+    float: left;
+}
+
+nav ul {
+    float: left;
+    list-style: none;
+}
+
+nav li {
+    float: left;
+    margin: 0rem 1.5rem;
+
+}
+
+.hero-section {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color: black;
+    height: 50rem;
+    padding-top: 15rem;
+    text-shadow: 2px 2px 2px rgb(255, 255, 255);
+    background-position: center;
+    background-size: cover;
+    background-image: url("/pexels-pietro-jeng-360622.jpg");
+}
+
+.hero-section button {
+    padding: 1rem 4rem;
+    margin-top: 4rem;
+    background: rgb(16, 148, 224);
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-top-left-radius: 3rem;
+    border-bottom-right-radius: 3rem;
+}
+
+.form-section {
+    text-align: center;
+    background-image: url(/pexels-karolina-grabowska-4021808.jpg);
+    background-position: center;
+    background-size: cover;
+
+
+}
+
+
+form input,
+form label,
+form textarea {
+    display: block;
+    font-size: 2.4rem;
+
+
+}
+
+form input,
+form textarea {
+    margin: 2rem auto;
+    width: 50%;
+}
+
+form button {
+    margin-bottom: 5rem;
+    padding: 1rem 4rem;
+    background: rgb(16, 148, 224);
+    border: none;
+    color: white;
+    cursor: pointer;
+    width: 50%;
+    border-top-left-radius: 3rem;
+    border-bottom-right-radius: 3rem;
+}
